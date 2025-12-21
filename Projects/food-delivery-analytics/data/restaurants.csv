@@ -1,0 +1,61 @@
+restaurant_id,restaurant_name,cuisine_type,city,average_preparation_time,rating
+1,Restaurant_1,North Indian,Hyderabad,21,3.74
+2,Restaurant_2,North Indian,Bangalore,28,3.09
+3,Restaurant_3,Fast Food,Chennai,31,3.7
+4,Restaurant_4,Fast Food,Mumbai,18,4.86
+5,Restaurant_5,North Indian,Mumbai,16,3.76
+6,Restaurant_6,Italian,Pune,23,4.66
+7,Restaurant_7,Chinese,Mumbai,38,4.68
+8,Restaurant_8,Fast Food,Bangalore,28,3.75
+9,Restaurant_9,Chinese,Bangalore,28,4.26
+10,Restaurant_10,Italian,Delhi,11,3.19
+11,Restaurant_11,North Indian,Delhi,18,3.21
+12,Restaurant_12,Italian,Mumbai,22,3.1
+13,Restaurant_13,Fast Food,Chennai,24,4.16
+14,Restaurant_14,South Indian,Delhi,12,3.85
+15,Restaurant_15,North Indian,Delhi,20,4.1
+16,Restaurant_16,Bakery,Bangalore,30,4.04
+17,Restaurant_17,Chinese,Chennai,23,3.7
+18,Restaurant_18,Italian,Pune,39,4.35
+19,Restaurant_19,North Indian,Mumbai,34,4.52
+20,Restaurant_20,Italian,Delhi,17,3.03
+21,Restaurant_21,North Indian,Chennai,27,3.41
+22,Restaurant_22,Fast Food,Chennai,28,4.43
+23,Restaurant_23,Fast Food,Mumbai,25,3.77
+24,Restaurant_24,Fast Food,Chennai,11,4.32
+25,Restaurant_25,Italian,Chennai,17,3.69
+26,Restaurant_26,Bakery,Chennai,31,3.78
+27,Restaurant_27,Fast Food,Delhi,15,3.32
+28,Restaurant_28,North Indian,Mumbai,21,3.52
+29,Restaurant_29,Fast Food,Chennai,24,4.21
+30,Restaurant_30,South Indian,Chennai,34,3.87
+31,Restaurant_31,Fast Food,Delhi,17,4.55
+32,Restaurant_32,Italian,Mumbai,13,4.71
+33,Restaurant_33,Bakery,Bangalore,24,4.08
+34,Restaurant_34,South Indian,Delhi,37,4.52
+35,Restaurant_35,Italian,Mumbai,29,3.61
+36,Restaurant_36,Italian,Chennai,34,3.83
+37,Restaurant_37,Italian,Mumbai,26,4.43
+38,Restaurant_38,North Indian,Mumbai,22,3.77
+39,Restaurant_39,Italian,Pune,27,4.18
+40,Restaurant_40,North Indian,Mumbai,11,3.37
+41,Restaurant_41,Italian,Bangalore,22,4.2
+42,Restaurant_42,Chinese,Mumbai,22,4.72
+43,Restaurant_43,South Indian,Bangalore,31,4.74
+44,Restaurant_44,Chinese,Chennai,24,4.45
+45,Restaurant_45,Italian,Bangalore,29,4.49
+46,Restaurant_46,South Indian,Chennai,38,4.12
+47,Restaurant_47,South Indian,Chennai,36,4.17
+48,Restaurant_48,Bakery,Bangalore,19,3.27
+49,Restaurant_49,Chinese,Delhi,38,3.89
+50,Restaurant_50,Bakery,Hyderabad,12,3.9
+51,Restaurant_51,South Indian,Mumbai,28,4.92
+52,Restaurant_52,North Indian,Pune,12,3.86
+53,Restaurant_53,South Indian,Hyderabad,31,4.1
+54,Restaurant_54,Bakery,Mumbai,23,4.07
+55,Restaurant_55,Chinese,Mumbai,17,4.27
+56,Restaurant_56,Italian,Chennai,36,4.5
+57,Restaurant_57,Italian,Mumbai,32,3.45
+58,Restaurant_58,Chinese,Pune,39,4.06
+59,Restaurant_59,Italian,Mumbai,13,4.65
+60,Restaurant_60,Italian,Bangalore,36,3.93
