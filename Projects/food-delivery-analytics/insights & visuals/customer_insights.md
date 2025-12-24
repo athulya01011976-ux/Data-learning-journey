@@ -14,7 +14,7 @@
 
 
 
-**Recommendation:** Introduce personalized retention strategies like loyalty rewards, early access to offers, or exclusive benefits—to maintain engagement and reduce the risk of churn among top-spending customers.
+**Recommendation:** Introduce personalized retention strategies like loyalty rewards, early access to offers, or exclusive benefits to maintain engagement and reduce the risk of churn among top-spending customers.
 
 
 
@@ -119,4 +119,5 @@
 
 
 **Recommendation:** Age specific marketing strategies, such as premium for higher-spending age groups and value-focused offers for others, to increase average order value and customer engagement.
+
 
