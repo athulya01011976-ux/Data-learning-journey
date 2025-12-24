@@ -101,22 +101,23 @@ ORDER BY total_orders DESC;
 
 -- (5) What is the average order value by age group?
 SELECT 
-	  CASE 
-          WHEN (c.age) BETWEEN 18 AND 25 THEN '18-25'
-          WHEN (c.age) BETWEEN 26 AND 35 THEN '26-35'
-          WHEN (c.age) BETWEEN 36 AND 45 THEN '36-45'
-          WHEN (c.age) > 45 THEN '45+'
-          ELSE 'unknown'
-	  END AS age,
-      AVG(o.order_value) AS avg_oredr_value
+    CASE 
+        WHEN c.age BETWEEN 18 AND 25 THEN '18-25'
+        WHEN c.age BETWEEN 26 AND 35 THEN '26-35'
+        WHEN c.age BETWEEN 36 AND 45 THEN '36-45'
+        WHEN c.age > 45 THEN '45+'
+        ELSE 'Unknown'
+    END AS age_group,
+    ROUND(AVG(o.order_value), 2) AS avg_order_value
 FROM orders o
 JOIN customers c ON o.customer_id = c.customer_id
-GROUP BY age
-ORDER BY
-    CASE
-        WHEN age = '18-25' THEN 1
-        WHEN age = '26-35' THEN 2
-        WHEN age = '36-45' THEN 3
-        WHEN age = '45+' THEN 4
-        ELSE 5
-    END;
+GROUP BY 
+    CASE 
+        WHEN c.age BETWEEN 18 AND 25 THEN '18-25'
+        WHEN c.age BETWEEN 26 AND 35 THEN '26-35'
+        WHEN c.age BETWEEN 36 AND 45 THEN '36-45'
+        WHEN c.age > 45 THEN '45+'
+        ELSE 'Unknown'
+    END
+ORDER BY age_group;
+
