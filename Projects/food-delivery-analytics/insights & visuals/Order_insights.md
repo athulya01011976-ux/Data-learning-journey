@@ -38,7 +38,7 @@
 
 **Business Impact:** A low cancellation rate reflects efficient order processing and delivery operations, helping reduce revenue loss and operational waste.
 
-&nbsp;
+
 
 **Recommendation:** Track cancellation reasons and proactively engage customers through real-time order updates and post-cancellation feedback to reduce cancellations.
 
@@ -119,4 +119,5 @@
 
 
 **Recommendation:** Evaluate the effectiveness of discounts by comparing discount levels with conversion rates and profitability, and consider targeted discounts
+
 
