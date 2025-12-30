@@ -2,8 +2,7 @@
 
 
 
-### Query Summary
-Analyzed order volume by day of the week and hour of the day to identify the peak ordering based on order count.
+
 
 
 
@@ -34,8 +33,7 @@ Identifying peak ordering periods enables better staffing, delivery scheduling, 
 
 
 
-### Query Summary
-Calculated the percentage of cancelled orders by dividing the number of cancelled orders by the total number of orders.
+
 
 
 
@@ -67,8 +65,6 @@ A low cancellation rate means efficient order processing and delivery operations
 
 
 
-### Query Summary
-Calculated revenue loss from cancelled and returned orders by aggregating order values related to these order statuses.
 
 
 
@@ -96,8 +92,7 @@ Revenue loss from cancellations and returns indicate operational issues, such as
 
 
 
-### Query Summary
-Calculated total revenue from delivered orders by aggregating the order values after discounts
+
 
 
 
@@ -128,8 +123,7 @@ The business earned 1885736 in total revenue from delivered orders.
 
 
 
-### Query Summary
-Calculated the average discount amount applied per order across all orders
+
 
 
 
@@ -146,6 +140,7 @@ Consistently high discounts may reduce profit margins if not offset by higher or
 ### Recommendation
 - Evaluate the effectiveness of discounts by comparing discount levels with conversion rates and profitability
 - consider targeted discounts
+
 
 
 
