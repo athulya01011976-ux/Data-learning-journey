@@ -1,4 +1,4 @@
-### (1) Who are the top 10 most valuable customers (based on total spending)?
+## (1) Who are the top 10 most valuable customers (based on total spending)?
 
 
 
@@ -146,6 +146,7 @@ Understanding spending behaviour by age group helps the business pricing, promot
 ### Recommendation
 - Age specific marketing strategies, such as premium for higher-spending age groups
 - value-focused offers for others
+
 
 
 
