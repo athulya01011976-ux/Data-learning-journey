@@ -2,8 +2,7 @@
 
 
 
-### Query Summary
-Identified the top 10 customers by total spending by adding order value, which is reduced by applicable discounts and ranking them from highest to lowest.
+
 
 
 
@@ -34,8 +33,7 @@ High-value customers drive a large share of revenue, making them critical for re
 
 
 
-### Query Summary
-Calculated month-on-month customer growth by comparing monthly customer sign-ups and measuring the percentage over time.
+
 
 
 
@@ -66,8 +64,7 @@ Implement targeted strategies, such as campaign to stabilize monthly customer gr
 
 
 
-### Query Summary
-Calculated the percentage of customers who placed more than one order by comparing repeat customers against the total number of customers
+
 
 
 
@@ -95,8 +92,7 @@ Implement personalized offers, simplified reordering, and flexible payment optio
 
 
 
-### Query Summary
-Identified customer activity by counting total orders per city and ranking cities from highest to lowest order volume.
+
 
 
 
@@ -128,8 +124,7 @@ Cities with higher order activity represent key markets for demand planning, log
 
 
 
-### Query Summary
-Calculated the average order value for each customer age group by grouping customers into defined age ranges and aggregating their order values
+
 
 
 
@@ -146,6 +141,7 @@ Understanding spending behaviour by age group helps the business pricing, promot
 ### Recommendation
 - Age specific marketing strategies, such as premium for higher-spending age groups
 - value-focused offers for others
+
 
 
 
