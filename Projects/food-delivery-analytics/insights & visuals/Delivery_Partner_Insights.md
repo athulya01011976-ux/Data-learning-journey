@@ -1,12 +1,12 @@
-**## (15) Which delivery partners completed the most deliveries?** 
+## (15) Which delivery partners completed the most deliveries?
 
-**## (18) Which delivery partners bring the highest revenue?**
-
-
+## (18) Which delivery partners bring the highest revenue?
 
 
 
-**### Insight**
+
+
+### Insight
 
 Partner\_120 and Partner\_130 completed the highest number of deliveries and also generated the highest revenue, indicating a strong correlation between delivery volume and revenue contribution.
 
@@ -14,21 +14,19 @@ Partner\_120 and Partner\_130 completed the highest number of deliveries and als
 
 
 
-**### Business Impact**
+### Business Impact
 
-* High-performing delivery partners contribute significantly to revenue consistency and customer satisfaction
-* Making critical to maintain service quality 
-
-
-
-**### Recommendation**
-
-* Prioritize operational support
-* optimized routing
-* capacity planning
-* performance-based incentives
+- High-performing delivery partners contribute significantly to revenue consistency and customer satisfaction
+- Making critical to maintain service quality 
 
 
+
+### Recommendation
+
+- Prioritize operational support
+- optimized routing
+- capacity planning
+- performance-based incentives
 
 
 
@@ -36,7 +34,9 @@ Partner\_120 and Partner\_130 completed the highest number of deliveries and als
 
 
 
-**## (16) Which delivery zones have the slowest delivery times?** 
+
+
+## (16) Which delivery zones have the slowest delivery times?
 
 
 
@@ -44,49 +44,50 @@ Partner\_120 and Partner\_130 completed the highest number of deliveries and als
 
 
 
-**### Insight**
+### Insight
 
 Average delivery times across all zones are relatively similar, with only minor differences between cities, indicating no single zone is underperforming
 
 
 
-**### Business Impact**
+### Business Impact
 
 Since delivery times are consistent across zones, broad operational changes may have a limited impact
 
 
 
-**### Recommendation**
+### Recommendation
 
-* Focus improvements on overall efficiency 
-* Implement route optimization 
-* Workload balancing on all zones
-
-
-
-
-
-**## (17) Do low-rated delivery partners have higher cancellation rates?** 
+- Focus improvements on overall efficiency 
+- Implement route optimization 
+- Workload balancing on all zones
 
 
 
 
 
-**### Insight**
+## (17) Do low-rated delivery partners have higher cancellation rates?
+
+
+
+
+
+### Insight
 
 Cancellation rates remain relatively similar across delivery partners, regardless of their customer ratings, indicating that partner ratings alone are not a strong predictor of cancellations
 
 
 
-**### Business Impact**
+### Business Impact
 
 Relying solely on partner ratings may lead to ineffective operational decisions and missed root causes of cancellations
 
 
 
-**### Recommendation**
+### Recommendation
 
 Track cancellation reasons and delays , order issues
+
 
 
 
