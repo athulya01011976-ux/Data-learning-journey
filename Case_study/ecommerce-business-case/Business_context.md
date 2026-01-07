@@ -2,108 +2,109 @@
 
 We are a 3-year-old e-commerce startup selling consumer lifestyle products (home essentials, electronics accessories, and personal care items).
 
-Operate in India
+- Operate in India
 
-Website + Android app
+- Website + Android app
 
-Revenue driven mainly by paid marketing (Google, Meta) and repeat customers
+- Revenue driven mainly by paid marketing (Google, Meta) and repeat customers
 
-Recently scaled marketing spend but profitability is unstable
+- Recently scaled marketing spend but profitability is unstable
 
-Leadership wants “data-driven decisions” but isn’t clear what that means yet
+- Leadership wants “data-driven decisions” but isn’t clear what that means yet
 
 ## Current concerns:
 
-Growth feels slower despite higher ad spend
+- Growth feels slower despite higher ad spend
 
-Some products sell very well, others don’t move
+- Some products sell very well, others don’t move
 
-Customers complain about delivery delays occasionally
+- Customers complain about delivery delays occasionally
 
-Management meetings often end with “we need better insights”
+- Management meetings often end with “we need better insights”
 
 ## Data Available
 
 You have access to the following tables (last 18 months of data):
 
-orders
+### 1. orders
 
-order_id
+- order_id
 
-user_id
+- user_id
 
-order_date
+- order_date
 
-order_status (placed, shipped, delivered, cancelled, returned)
+- order_status (placed, shipped, delivered, cancelled, returned)
 
-total_amount
+- total_amount
 
-payment_method
+- payment_method
 
-order_items
+### 2.order_items
 
-order_id
+- order_id
 
-product_id
+- product_id
 
-quantity
+- quantity
 
-item_price
+- item_price
 
-discount_applied
+- discount_applied
 
-products
+### 3.products
 
-product_id
+- product_id
 
-category
+- category
 
-brand
+- brand
 
-cost_price
+- cost_price
 
-selling_price
+- selling_price
 
-users
+### 4.users
 
-user_id
+- user_id
 
-signup_date
+- signup_date
 
-city
+- city
 
-acquisition_channel (organic, google_ads, meta_ads, referral)
+- acquisition_channel (organic, google_ads, meta_ads, referral)
 
-marketing_spend
+### 5.marketing_spend
 
-date
+- date
 
-channel
+- channel
 
-spend_amount
+- spend_amount
 
-campaign_id
+- campaign_id
 
-delivery
+### 6.delivery
 
-order_id
+- order_id
 
-promised_days
+- promised_days
 
-actual_delivery_days
+- actual_delivery_days
 
 ## 5 Intentionally Vague Client Questions
 
 These are exactly how leadership phrases them — unclear, high-level, and slightly confused:
 
-“Are we actually growing properly, or does it just look like growth?”
+1. “Are we actually growing properly, or does it just look like growth?”
 
-“Marketing is costing us a lot — is it even worth it?”
+2. “Marketing is costing us a lot — is it even worth it?”
 
-“Which customers are good customers?”
+3. “Which customers are good customers?”
 
-“Some products feel profitable but I’m not sure — can you check?”
+4. “Some products feel profitable but I’m not sure — can you check?”
 
-“Delivery issues keep coming up in reviews — is this really a big problem or just noise?”
+5. “Delivery issues keep coming up in reviews — is this really a big problem or just noise?”
+
 
 
