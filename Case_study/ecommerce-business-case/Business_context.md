@@ -1,4 +1,4 @@
-Business Background (Client Perspective)
+## Business Background (Client Perspective)
 
 We are a 3-year-old e-commerce startup selling consumer lifestyle products (home essentials, electronics accessories, and personal care items).
 
@@ -12,7 +12,7 @@ Recently scaled marketing spend but profitability is unstable
 
 Leadership wants “data-driven decisions” but isn’t clear what that means yet
 
-Current concerns:
+## Current concerns:
 
 Growth feels slower despite higher ad spend
 
@@ -22,7 +22,7 @@ Customers complain about delivery delays occasionally
 
 Management meetings often end with “we need better insights”
 
-Data Available
+## Data Available
 
 You have access to the following tables (last 18 months of data):
 
@@ -92,7 +92,7 @@ promised_days
 
 actual_delivery_days
 
-5 Intentionally Vague Client Questions
+## 5 Intentionally Vague Client Questions
 
 These are exactly how leadership phrases them — unclear, high-level, and slightly confused:
 
@@ -105,4 +105,5 @@ These are exactly how leadership phrases them — unclear, high-level, and sligh
 “Some products feel profitable but I’m not sure — can you check?”
 
 “Delivery issues keep coming up in reviews — is this really a big problem or just noise?”
+
 
