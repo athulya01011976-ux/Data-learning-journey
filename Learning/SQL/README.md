@@ -1,10 +1,8 @@
-# This repository contains my SQL preparation work, focused on solving real-world business problems using SQL.
-
-# The questions are designed to simulate actual interview scenarios , covering both fundamental and advanced SQL concepts.
+## This repository contains my SQL preparation work, focused on solving real-world business problems using SQL. The questions are designed to simulate actual interview scenarios , covering both fundamental and advanced SQL concepts.
 
 ## Data Model Used
 
-# A company HR + sales domain is used throughout the repository to maintain.
+### A company HR + sales domain is used throughout the repository to maintain.
 
 ## How This Was Built:
 
@@ -23,4 +21,4 @@
 ### Clear, readable SQL
 
 ### Some practice questions and datasets were AI-assisted to simulate interviewer-style questions,
-while all SQL solutions, reasoning, and improvements are my own work.
+### while all SQL solutions, reasoning, and improvements are my own work.
