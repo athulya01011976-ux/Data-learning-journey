@@ -2,11 +2,11 @@
 
 ## Data Model Used
 
-### A company HR + sales domain is used throughout the repository to maintain.
+### A company HR + sales domain is used throughout the repository to maintain continuity.
 
 ## How This Was Built:
 
-### Problems were practiced incrementally, from easy to advanced
+### Problems were practiced progressively, from easy to advanced
 
 ### Queries were reviewed and corrected with interviewer-style feedback
 
