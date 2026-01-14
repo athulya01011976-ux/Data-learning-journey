@@ -1,4 +1,4 @@
-### This repository contains my SQL preparation work, focused on solving real-world business problems using SQL. The questions are designed to simulate actual interview scenarios , covering both fundamental and advanced SQL concepts.
+### This file contains my SQL preparation work, focused on solving real-world business problems using SQL. The questions are designed to simulate actual interview scenarios , covering both fundamental and advanced SQL concepts.
 
 ## Data Model Used
 
