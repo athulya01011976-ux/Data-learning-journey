@@ -106,7 +106,7 @@ SELECT customer_id, order_id,order_amount,
 (order_amount-prev_month) AS difference
 FROM highest_rank;
 
--- Return the 2nd highest DISTINCT salary in the company.
+-- (8) Return the 2nd highest DISTINCT salary in the company.
 -- If multiple employees have it, return all of them.
 WITH second_highest AS(
 SELECT emp_name , salary , 
