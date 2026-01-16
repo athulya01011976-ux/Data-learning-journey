@@ -115,3 +115,76 @@ FROM employees)
 SELECT emp_name, salary 
 FROM second_highest
 WHERE en =2;
+
+-- (9) Return department name(s) where average salary is greater than overall company average salary.
+WITH avg_salary AS(
+    SELECT d.dept_id,d.dept_name, AVG(e.salary) AS avg_salary
+    FROM departments d
+    JOIN employees e ON d.dept_id = e.dept_id
+    GROUP BY d.dept_id)
+SELECT dept_name , avg_salary
+FROM avg_salary
+WHERE avg_salary > (SELECT AVG(salary) FROM employees);
+
+-- (10)Return employees who belong to a department that has ONLY ONE employee.
+WITH DepartmentCounts AS (
+    SELECT dept_id, COUNT(*) AS EmployeeCount
+    FROM employees
+    GROUP BY dept_id)
+SELECT e.emp_id, e.emp_name, e.dept_id
+FROM employees e
+JOIN DepartmentCounts dc ON e.dept_id = dc.dept_id
+WHERE dc.EmployeeCount = 1;
+
+-- (11) For each department:
+-- Rank employees by salary (highest first)
+-- Return only the employee(s) with the 2nd highest salary
+-- If multiple employees share the same 2nd highest salary → return all
+WITH ranked_salary AS(
+	SELECT dept_id,emp_id,emp_name,salary,
+    DENSE_RANK() OVER(PARTITION BY dept_id 
+                      ORDER BY salary DESC) AS rn
+	FROM employees)
+SELECT dept_id ,emp_name, salary
+FROM ranked_salary
+WHERE rn = 2;
+
+-- (12) Return employees whose salary is above the department median salary. 
+-- No GROUP BY allowed.
+WITH median_salary AS(
+	SELECT emp_name,dept_id,salary,
+    PERCENT_RANK() OVER (PARTITION BY dept_id 
+						 ORDER BY salary ASC) AS rn
+	FROM employees)
+SELECT emp_name , dept_id , salary 
+FROM median_salary 
+WHERE rn > 0.5;
+
+-- (13) For each customer:
+-- Order their orders by order_date
+-- Show running total of order_amount
+SELECT customer_id,order_id,order_date,order_amount,
+SUM(order_amount) OVER(PARTITION BY customer_id
+					   ORDER BY order_date,order_id) AS running_totals
+FROM orders
+ORDER BY customer_id , order_date;
+
+-- (14) Return top 2 highest-paid employees from each department
+-- BUT Include only departments that have at least 3 employees
+WITH highest_paid AS(
+	SELECT dept_id ,emp_name,salary,
+    RANK() OVER(PARTITION BY dept_id
+                ORDER BY salary DESC) AS rn,
+	COUNT(dept_id) OVER(PARTITION BY dept_id) AS cnt
+    FROM employees)
+SELECT dept_id ,emp_name,salary
+FROM highest_paid
+WHERE rn <= 2 AND cnt >= 3;
+
+-- (15) Return employees who earn more than their department’s average salary.
+-- Window functions NOT allowed.
+SELECT emp_name ,dept_id,salary 
+FROM  employees e1
+WHERE salary > (SELECT AVG(salary) FROM employees e2
+				WHERE e1.dept_id = e2.dept_id);
+			
