@@ -1,31 +1,21 @@
-## Business Context (Fintech Company)
+# Fintech Hypothesis Testing – Credit Policy Impact
 
-You are a statistician at a fintech company that provides digital loans and credit cards through a mobile app.
+## Project Overview
+This project analyzes whether a new credit approval policy reduced loan default rates in a fintech company using statistical hypothesis testing.
 
-The company recently introduced a new credit approval policy:
-
-A stricter risk-scoring threshold
-
-Aimed at reducing loan default rates
-
-Management has collected 6 months of data before and 6 months of data after the policy change.
-
-## Available data
-
-- Loan default indicator (Default / No Default)
-- Loan amount
-- Customer credit score
-- Policy period (Before / After)
-- Customer segment (New vs Existing)
+The goal is to demonstrate **practical statistical reasoning**, correct **test selection**, and **business-focused interpretation**.
 
 ## Business Problem
+A fintech company introduced a stricter credit approval policy to reduce loan defaults.  
+Management wants to know whether the observed reduction in default rate after the policy change is **statistically significant** or due to random variation.
 
-Management wants to know:
+---
 
-- Did the new credit approval policy actually reduce the default rate, or are the observed changes due to random variation?
+## Approach
+- Defined null and alternative hypotheses in business terms  
+- Selected an appropriate hypothesis test for binary outcome data  
+- Interpreted the p-value from a business decision perspective
 
-This decision is critical because:
-
-- A stricter policy may reduce defaults
-- But it may also reduce customer acquisition and revenue
-- They ask you to perform hypothesis testing to support a data-driven decision.
+  ## Data Note
+**The dataset used in this project is AI-simulated** to reflect realistic fintech default behavior.  
+The statistical solution and interpretations were **reviewed, corrected, and refined** to ensure methodological accuracy and clarity.
